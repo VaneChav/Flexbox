@@ -8,8 +8,17 @@ body {
   background-color: cornflowerblue;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 968px;
+  height: 100vh;
+  background-color: darkgreen;
+
+}
+
 .container {
-  display: flex;
+  display: flex; /* Tomar todo el ancho disponible */
+  display: inline-flex; /* Tomar elancho de los elementos */
   background-color: cadetblue;
 }
 
@@ -21,3 +30,5 @@ body {
   background-color: darkslateblue;
   border: 2px solid lightslategray;
 }
+
+/* https://bit.ly/4k */
