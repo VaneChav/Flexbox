@@ -7,7 +7,7 @@ body {
   background-color: cornflowerblue;
 
   /* Habilitamos Flexbox */
-  display:flex; 
+  display: flex; 
 }
 
 .item {
@@ -18,7 +18,7 @@ body {
   background-color:dodgerblue;
 
   /* Habilitamos Flexbox en un elemento hijo */
-  display:flex;
+  display: flex;
 }
 
 .item-flex > h2 {
