@@ -10,6 +10,7 @@ body {
   display: flex;
 
   justify-content: center;
+  align-items: stretch;
 
   flex-wrap: nowrap; /* Default.Esto no fuerza el salto de linea */
   flex-wrap: wrap;
@@ -23,7 +24,7 @@ body {
 }
 
 .item {
-  width: 150px;
+  width: 100px;
 /*   height: 50px; */
   background-color:lightblue;
   border: 1px solid lightcoral;
