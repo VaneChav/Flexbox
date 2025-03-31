@@ -1,0 +1,31 @@
+/* 
+
+Flex Shrink
+
+Es una de las 3 prioridades que reciben los elementos (item) dentro de un contenedor (container) con display:flex
+
+flex-shrink -> Define cuanto puede encogerse un elemento si el contenedor es mas pequeño que el tamaño total de los elementos.
+
+* Valor por defecto 1: Se encoge si es necesario.
+* Si se pone , no se encoge.
+* Funciona proporcionalmente como flex-grow
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color:darkslategrey;
+}
+
+.container{
+  background-color: #305165;
+}
+
+.item{
+  background-color: #5e929f;
+  border: 1px solid #e1eabb;
+}
