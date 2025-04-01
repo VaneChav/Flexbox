@@ -50,5 +50,23 @@ body {
 }
 
 .item-4{
-  flex-basis: 8mm;
+  flex-basis: 8em;
 }
+
+/* 
+Existe un Short Hand para estas tres propiedades: flex-grow, flex-shrink y fles-basis
+
+flex-grow / flex-shrink / fles-basis
+
+.item-1 {
+  flex: 0 1 200px;
+}
+
+.tem-2 {
+  flex:1 1 50%
+}
+
+.tem-3 {
+  flex:1 0 24rem
+}
+*/
